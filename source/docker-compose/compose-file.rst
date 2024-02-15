@@ -68,6 +68,17 @@ docker-compose.yml 文件如下
       demo-network:
 
 
+docker-compose 常用语法
+-------------
+.. code-block:: bash
+    # 删除无用service
+    $ docker-compose up -d --remove-orphans
+    $ docker-compose restart
+    # 修改成文件内容，重新构建image
+    $ docker-compose up -d --build
+
+
+
 docker-compose 语法版本
 ------------------------
 
